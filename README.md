@@ -2,6 +2,12 @@
 trying to solve one billion row challenge in c to learn c :)
 https://github.com/gunnarmorling/1brc
 
+TODO:
+- Currently all measurement are aggregated in one, not based on station, so need to implement station based aggregtion
+- - Need to implment hashset
+- Some lines are missing due to chunks are being started from middle of line so just skipping them to read stable data line.
+
+  
 Compilation Steps: (will create a makefile later) 
 gcc obrc.c -o obrc -pthread
 
