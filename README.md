@@ -15,8 +15,11 @@ RUN:
 ./obrc or time ./obrc
 
 CPU:  **intel core i7 10510U**
+
 Line: 1 billions
+
 Initial version of working file taking **1m10.142s**
+
 After using short for measuremnt instead of double execution time reduce to **0m26.920s**
 
 Some optimzation techniques used in this version are
